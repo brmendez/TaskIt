@@ -13,6 +13,13 @@
 		456610D31A0ECF690058F6F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456610D21A0ECF690058F6F8 /* Images.xcassets */; };
 		456610D61A0ECF690058F6F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456610D41A0ECF690058F6F8 /* LaunchScreen.xib */; };
 		456610E21A0ECF690058F6F8 /* TaskItBitFountainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610E11A0ECF690058F6F8 /* TaskItBitFountainTests.swift */; };
+		456610EC1A0ED6100058F6F8 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610EB1A0ED6100058F6F8 /* TaskCell.swift */; };
+		456610F01A0EE0540058F6F8 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610EF1A0EE0540058F6F8 /* TaskDetailViewController.swift */; };
+		456610F21A0EE5BD0058F6F8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610F11A0EE5BD0058F6F8 /* Date.swift */; };
+		456610F41A0EE9FB0058F6F8 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610F31A0EE9FB0058F6F8 /* AddTaskViewController.swift */; };
+		456610F61A0F0A310058F6F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456610F51A0F0A310058F6F8 /* CoreData.framework */; };
+		456610F91A0F11010058F6F8 /* TaskItModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 456610F71A0F11010058F6F8 /* TaskItModel.xcdatamodeld */; };
+		456610FB1A0F12170058F6F8 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456610FA1A0F12170058F6F8 /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		456610DB1A0ECF690058F6F8 /* TaskItBitFountainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItBitFountainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456610E01A0ECF690058F6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456610E11A0ECF690058F6F8 /* TaskItBitFountainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItBitFountainTests.swift; sourceTree = "<group>"; };
+		456610EB1A0ED6100058F6F8 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		456610EF1A0EE0540058F6F8 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		456610F11A0EE5BD0058F6F8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		456610F31A0EE9FB0058F6F8 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		456610F51A0F0A310058F6F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		456610F81A0F11010058F6F8 /* TaskItModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskItModel.xcdatamodel; sourceTree = "<group>"; };
+		456610FA1A0F12170058F6F8 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskModel.swift; path = ../TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456610F61A0F0A310058F6F8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,12 @@
 			children = (
 				456610CB1A0ECF690058F6F8 /* AppDelegate.swift */,
 				456610CD1A0ECF690058F6F8 /* ViewController.swift */,
+				456610EF1A0EE0540058F6F8 /* TaskDetailViewController.swift */,
+				456610F31A0EE9FB0058F6F8 /* AddTaskViewController.swift */,
+				456610EB1A0ED6100058F6F8 /* TaskCell.swift */,
+				456610F11A0EE5BD0058F6F8 /* Date.swift */,
+				456610F71A0F11010058F6F8 /* TaskItModel.xcdatamodeld */,
+				456610FA1A0F12170058F6F8 /* TaskModel.swift */,
 				456610CF1A0ECF690058F6F8 /* Main.storyboard */,
 				456610D21A0ECF690058F6F8 /* Images.xcassets */,
 				456610D41A0ECF690058F6F8 /* LaunchScreen.xib */,
@@ -90,6 +111,7 @@
 		456610C91A0ECF690058F6F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				456610F51A0F0A310058F6F8 /* CoreData.framework */,
 				456610CA1A0ECF690058F6F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -213,7 +235,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				456610CE1A0ECF690058F6F8 /* ViewController.swift in Sources */,
+				456610F91A0F11010058F6F8 /* TaskItModel.xcdatamodeld in Sources */,
+				456610F21A0EE5BD0058F6F8 /* Date.swift in Sources */,
+				456610EC1A0ED6100058F6F8 /* TaskCell.swift in Sources */,
 				456610CC1A0ECF690058F6F8 /* AppDelegate.swift in Sources */,
+				456610F01A0EE0540058F6F8 /* TaskDetailViewController.swift in Sources */,
+				456610FB1A0F12170058F6F8 /* TaskModel.swift in Sources */,
+				456610F41A0EE9FB0058F6F8 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +435,7 @@
 				456610E71A0ECF690058F6F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		456610E81A0ECF690058F6F8 /* Build configuration list for PBXNativeTarget "TaskItBitFountainTests" */ = {
 			isa = XCConfigurationList;
@@ -415,8 +444,22 @@
 				456610EA1A0ECF690058F6F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		456610F71A0F11010058F6F8 /* TaskItModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				456610F81A0F11010058F6F8 /* TaskItModel.xcdatamodel */,
+			);
+			currentVersion = 456610F81A0F11010058F6F8 /* TaskItModel.xcdatamodel */;
+			path = TaskItModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 456610BE1A0ECF690058F6F8 /* Project object */;
 }
